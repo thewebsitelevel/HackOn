@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Ubuntu+Condensed');
+
+body{
+ background-color:#000000;
+ position: relative;
+}
+#c{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1000;
+    display:block;
+    opacity: 0.5;
+}
+
+.maindiv{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    z-index: 100;
+}
+/*.toggle{
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
+*/
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+}
+nav{
+	    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 39px;
+    color: white;
+    outline: none;
+    padding: 1%;
+    margin: 3%;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+nav a{
+	text-decoration: none;
+	color: white;
+}
+nav a:hover{
+    cursor: pointer;
+    
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    width: 84%;
+    padding: 9px;
+    justify-content: space-around;
+}
+.hackon{
+	    
+    margin: 0px;
+    padding: 2px;
+    font-size: 35px;
+    font-weight: 50px;
+    font-family: font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    color: white;
+    letter-spacing: 10px;
+}
+.content{
+
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ width: 94%;
+ padding: 15px;
+ margin: 15px;
+
+color: white;
+
+}
+.content .body{
+    margin: 5px;
+}
+.image{
+	display: flex;
+	justify-content: flex-start;
+    width: 10%;
+}
+.content img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border:1px solid #fff;
+}
+.content p{
+	font-size: 25px;
+    letter-spacing: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px){
+	
+    .content p{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+}
