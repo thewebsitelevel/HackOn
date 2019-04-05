@@ -41,7 +41,7 @@ body{
 }
 .nav{
     color: white;
-    width:60%;
+    width:50%;
     display: flex;
     justify-content: space-around;
 }
@@ -109,7 +109,10 @@ body{
 .ques{
     color:white;
     font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
     font-family: 'Iceberg', cursive;
+    text-align: justify;
 
 }
 
