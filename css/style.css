@@ -287,6 +287,10 @@ body{
 
 }
 
+.leader:nth-of-type(even){
+    background-color: #184853;
+}
+
 .leaderitem{
     color: white;
     font-size: 25px;
