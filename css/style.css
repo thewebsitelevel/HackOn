@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sriracha');
 @import url('https://fonts.googleapis.com/css?family=Iceberg|Josefin+Sans');
+@import url('./fonts/segoepr.ttf');
+@import url('./fonts/serif.ttf');
 
 
 
@@ -54,7 +56,7 @@ body{
     color: white;
     font-size: 30px;
 /*  font-family: 'Sriracha', cursive;*/
-    font-family: 'Iceberg', cursive;
+    font-family: Segoe Print;
     text-decoration: none;
     align-items: center;
     margin-left: 5px;
@@ -90,7 +92,7 @@ body{
     padding-left: 35%;
     margin-top: 2%;
     margin-bottom: -25%;
-    font-family: 'Iceberg', cursive;
+    font-family: sans-serif;
 }
 .xunbao{
     position: relative;
@@ -131,6 +133,85 @@ body{
 
 }
 
+.stickers{
+    margin-top: 0%;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.stickerdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+
+.sticker{
+    position: relative;
+    z-index: -10;
+    width: 190px;
+    margin: 10px;
+}
+
+.task{
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    z-index: 10;
+    background-color: black;
+    margin-top: -70%;
+    margin-bottom: 20%;
+
+}
+.status{
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0%;
+    width: 60%;
+    z-index: 10;
+    background-color: black;
+}
+#one{
+    transform: rotate(3deg);
+}
+
+#two{
+    transform: rotate(-3deg);
+}
+
+#three{
+    transform: rotate(-5deg);
+}
+#four{
+    transform: rotate(3deg);
+}
+#five{
+    transform: rotate(-3deg);
+}
+#six{
+    transform: rotate(3deg);
+}
+#seven{
+    transform: rotate(-3deg);
+}
+
+.hacked{
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 40px;
+    margin-top: -40%;
+    transform: rotate(-45deg);
+
+}
+
+
+
 
 
 @media only screen and (max-width: 1050px){
@@ -162,7 +243,7 @@ body{
     color: white;
     font-size: 3vw;
 /*  font-family: 'Sriracha', cursive;*/
-    font-family: 'Iceberg', cursive;
+    font-family: Segoe Print;
     text-decoration: none;
 }
 
@@ -172,7 +253,7 @@ body{
     margin-top: 10%;
 }
 .xunbaodiv{
-    margin-right: 10px;
+    margin-right: 50px;
     margin-bottom: 10px;
     background: black;
     align-items: center;
@@ -237,6 +318,48 @@ body{
     text-align: justify;
 
 }
+
+
+.sticker{
+    position: relative;
+    z-index: -10;
+    width: 150px;
+    margin: 10px;
+}
+
+.task{
+    color: white;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    z-index: 10;
+    background-color: black;
+    margin-top: -70%;
+    margin-bottom: 20%;
+
+}
+.status{
+    color: white;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0%;
+    width: 80%;
+    z-index: 10;
+    background-color: black;
+}
+
+.hacked{
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 30px;
+    margin-top: -40%;
+    transform: rotate(-45deg);
+}
+
+
+
+
     
 
 }
@@ -271,7 +394,7 @@ body{
     color: white;
     font-size: 4vw;
 /*  font-family: 'Sriracha', cursive;*/
-    font-family: 'Iceberg', cursive;
+    font-family: Segoe Print;
     text-decoration: none;
 }
 
@@ -282,6 +405,7 @@ body{
 }
 .xunbaodiv{
     margin-bottom: 10px;
+    margin-right: 0px;
     background: black;
     align-items: center;
     margin-left: 0px;
@@ -345,5 +469,64 @@ body{
     text-align: justify;
 
 }
+
+
+.stickers{
+    margin-top: 0%;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.stickerdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+
+.sticker{
+    position: relative;
+    z-index: -10;
+    width: 90px;
+    margin: 10px;
+}
+
+.task{
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    width: 40%;
+    z-index: 10;
+    background-color: black;
+    margin-top: -70%;
+    margin-bottom: 20%;
+
+}
+.status{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0%;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+}
+
+.hacked{
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-size: 17px;
+    margin-top: -40%;
+    transform: rotate(-45deg);
+
+}
     
+
+
 }
