@@ -154,7 +154,7 @@ body{
 .sticker{
     position: relative;
     z-index: -10;
-    width: 160px;
+    width: 190px;
     margin: 10px;
 }
 
@@ -210,6 +210,34 @@ body{
     margin-top: -40%;
     transform: rotate(-45deg);
 
+}
+
+.leaderboard{
+    border:1px solid white;
+    width:80%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+.leaderheader{
+    border:1px solid white;
+    background: #0F2228;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20%;
+    align-items: center;
+}
+
+.headeritems{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right:20px;
+    padding: 0px;
+    vertical-align: baseline;
+    font-family:  Segoe Print;
 }
 
 
