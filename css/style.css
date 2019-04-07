@@ -380,19 +380,6 @@ tr:nth-child(odd) {
     letter-spacing: .2spx;
 
 }
-.developers{
-    width: 100%;
-}
-.para_hack{
-    text-align: center;
-    letter-spacing: 15px;
-    font-size: 30px;
-    color:white;
-    font-family: ;
-}
-
-
-
 
 @media only screen and (max-width: 1050px){
 
@@ -696,7 +683,7 @@ tr:nth-child(odd) {
     align-items: center;
 }
 .logo{
-    width: 40px;px;
+    width: 40px;
     margin:5px;
 }
 .nav{
@@ -904,6 +891,7 @@ tr:nth-child(odd) {
 
 }
 
+<<<<<<< HEAD
 .home{
     display: flex;
     flex-direction: column;
@@ -981,8 +969,6 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #020411;
 }
-
-    
 
 
 }
