@@ -295,7 +295,15 @@ body{
     font-family:  Segoe Print;
 
 }
-
+.developers{
+    width: 100%;
+}
+.HACKON{
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 30px;
+    color:white;
+}
 
 
 
