@@ -79,6 +79,7 @@ body{
     text-decoration: none;
     align-items: center;
     margin-left: 5px;
+    height: 10%;
     margin-right: 5px;
     padding: 0px;
     transition: all .2s ease-in-out; 
@@ -148,6 +149,20 @@ body{
 
 .quesbox{
     background-color: black;
+    margin-left: 100px;
+    opacity: 0.7;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    border:1px solid #0BD5FF;
+    border-radius: 2px;
+    margin-top: -20%;
+    align-self: center;
+}
+.rulebox{
+    background-color: black;
     margin-left: 10%;
     opacity: 0.7;
     position: relative;
@@ -155,6 +170,7 @@ body{
     flex-direction: column;
     width: 80%;
     height: auto;
+    margin-top: -5%;
     border:1px solid white;
     border-radius: 2px;
     align-self: center;
@@ -449,7 +465,8 @@ tr:nth-child(odd) {
 }
 
 
-}
+
+
 
 @media screen and (max-width: 1050px){
 
@@ -481,6 +498,7 @@ tr:nth-child(odd) {
 .item{
     color: white;
     font-size: 3vw;
+    height: 50px;
 /*  font-family: 'Sriracha', cursive;*/
     font-family: Segoe Print;
     text-decoration: none;
@@ -534,7 +552,7 @@ tr:nth-child(odd) {
     font-size: 25px;
     font-family: 'Iceberg', cursive;
     text-align: center;
-    margin-top: -20px;
+    margin-top: 10%;
     margin-bottom: -50px;
 
 }
@@ -550,6 +568,23 @@ tr:nth-child(odd) {
     margin-left: 0px;
     height: auto;
     border:1px solid #0BD5FF;
+    margin-top: -5%;
+    border-radius: 2px;
+    align-self: center;
+}
+
+.rulebox{
+    background-color: black;
+    margin-left: 0%;
+    opacity: 0.7;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: ;
+    width: 80%;
+    height: auto;
+    margin-top: 0%;
+    border:1px solid white;
     border-radius: 2px;
     align-self: center;
 }
@@ -901,10 +936,27 @@ tr:nth-child(odd) {
     margin-top: 15%;
     margin-left: 0px;
     height: auto;
+    border:1px solid #0BD5FF;
+    border-radius: 2px;
+    align-self: center;
+}
+.rulebox{
+    background-color: black;
+    align-self: center;
+    opacity: 0.7;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 15%;
+    margin-left: 0px;
+    height: auto;
     border:1px solid white;
     border-radius: 2px;
     align-self: center;
 }
+
+
 
 .quesbox2{
     width: 90%;
