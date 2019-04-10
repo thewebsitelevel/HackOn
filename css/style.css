@@ -463,14 +463,41 @@ tr:nth-child(odd) {
     font-family: Segoe Print;
 
 }
+#three-container{
+    margin-top: -120px;
+    margin-bottom: -120px;
+    width: 80%;
+}
 
 
+#instructions {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    padding-bottom: 6px;
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+}
+
+ #if{
+        display: block;
+    }
+    #else{
+        display: none;
+    }
 
 
 
 @media screen and (max-width: 1050px){
 
-
+#if{
+        display: none;
+    }
+    #else{
+        display: block;
+    }
     .header{
     display: flex;
     flex-direction: column;
@@ -711,7 +738,7 @@ tr:nth-child(odd) {
      font-size:100px;
      font-family: 'Iceberg', cursive;
      margin-bottom: -10px;
-     margin-top: -10px;
+     margin-top: 50px;
      letter-spacing: 30px;
 
 }
